@@ -1,24 +1,32 @@
 body {
-    font-family: system-ui, sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-   background-color:#dceeff ;
-    text-align: center;
+    font-family: Dubai;
+    margin: 0;
+    background-color: aliceblue;
+    color: #1e293b;
 }
-
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+nav { background-color: #2563eb; padding: 15px; }
+nav a { color: white; margin-right: 20px; }
 main {
-    max-width: 70ch;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
 }
-
-h1 {
-    color: darkslategray;
-    font-size: 2.5rem;
-    text-align: center;
+article {
+    background-color: #dcf1fc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
-
-h2 {
-    color: darkslategray;
-    font-size: 2rem;
+footer {
+    background-color: #334155;
+    color: white;
     text-align: center;
+    padding: 20px;
 }
